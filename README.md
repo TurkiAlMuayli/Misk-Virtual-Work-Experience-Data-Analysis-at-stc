@@ -30,9 +30,9 @@ The project works through four stages, each building on the last:
 The raw export had program genre and title concatenated in a single field, an Excel serial-number date column, and inconsistent whitespace in program names. After cleaning:
 
 - **1,048,575** viewing events across **11,578** unique users and **8,013** distinct programs
-- **Movies vs. series:** movies draw 74% of viewers but only account for 29% of total watch hours; series draw 26% of viewers but generate 71% of watch hours, a much smaller but far more engaged audience
-- **HD vs. SD:** movie viewers lean toward HD (64%), while series viewers lean toward SD (56%), a pattern worth investigating further (bandwidth conservation during binge sessions, device type, or HD content availability)
-- **Most-watched titles:** animated family films dominate the top 10, led by *The Boss Baby*
+- **Movies vs. series:** movies draw 74.4% of viewers but only account for 28.9% of total watch hours; series draw 25.6% of viewers but generate 71.1% of watch hours, a much smaller but far more engaged audience
+- **HD vs. SD:** total watches of series viewers lean toward SD (486K), while total watches of movie viewers lean toward HD (331K), a pattern worth investigating further (bandwidth conservation during binge sessions, device type, or HD content availability)
+- **Most-watched titles:** animated family films dominate most of the top 10, led by *The Boss Baby*
 
 ## 2. Demand Forecasting
 
@@ -49,7 +49,7 @@ Built an item-based collaborative filtering system using cosine similarity, comp
 - **Implicit engagement**, derived from watch duration relative to each program's typical (median) watch time
 - **A blended model** averaging both signals
 
-All three approaches converged on nearly the same result. For example, viewers who watched *Moana* were recommended *Trolls*, *Surf's Up: WaveMania*, *The Mermaid Princess*, and *The Boss Baby* — every one an animated family title, despite the model never being told the genre.
+All three approaches converged on nearly the same result. For example, viewers who watched *Moana* were recommended *Trolls*, *Surf's Up: WaveMania*, *The Mermaid Princess*, and *The Boss Baby*. every one an animated family title, despite the model never being told the genre.
 
 ## 4. Presentation
 
