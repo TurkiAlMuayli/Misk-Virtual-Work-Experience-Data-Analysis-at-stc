@@ -17,11 +17,11 @@ The project works through four stages, each building on the last:
 
 ```
 ├── notebooks/
-│   ├── 01_data_cleaning_eda.ipynb        # Cleaning, feature engineering, viewer behavior analysis
-│   ├── 02_demand_forecasting.ipynb       # Prophet-based time series forecast
-│   └── 03_recommendation_engine.ipynb    # Collaborative filtering recommendation system
+│   ├── stctv_task1.ipynb        # Cleaning, feature engineering, viewer behavior analysis
+│   ├── stctv_task2.ipynb       # Prophet-based time series forecast
+│   └── stctv_task3.ipynb    # Collaborative filtering recommendation system
 ├── presentation/
-│   └── stc_tv_insights_presentation.pptx # Final stakeholder-facing deck
+│   └── stctv_task4.pptx # Final stakeholder-facing deck
 └── README.md
 ```
 
