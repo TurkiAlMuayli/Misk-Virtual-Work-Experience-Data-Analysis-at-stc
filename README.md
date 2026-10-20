@@ -57,7 +57,7 @@ The final deliverable is a slide deck translating these findings into recommenda
 
 ## Tools & Techniques
 
-`pandas` · `numpy` · `plotly` · `Prophet` · `scikit-learn` (cosine similarity) · `pptxgenjs`
+`pandas` · `numpy` · `plotly` · `Prophet` · `scikit-learn` (cosine similarity) ·
 
 ## Author
 
