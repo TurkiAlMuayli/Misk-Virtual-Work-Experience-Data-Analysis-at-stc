@@ -2,8 +2,6 @@
 
 An end-to-end data analytics project built on over 1 million real stc tv viewing events: cleaning and exploring the data, forecasting future demand, building a recommendation engine, and presenting the findings to a non-technical audience.
 
-Completed as part of a data analytics internship (Misk Skills / stc Corporate Analytics and Data program).
-
 ## Overview
 
 The project works through four stages, each building on the last:
